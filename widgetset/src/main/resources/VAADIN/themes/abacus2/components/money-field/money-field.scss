@@ -1,0 +1,7 @@
+@mixin money-field {
+  .money-field {
+    input {
+      text-align: right;
+    }
+  }
+}

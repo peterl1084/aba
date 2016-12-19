@@ -1,0 +1,23 @@
+@import "variables.scss";
+@import "components/money-field/money-field.scss";
+
+@mixin abacus {
+
+	@include money-field;
+	
+	.v-margin-left {
+		padding-left: 10px;
+	}
+
+	.v-margin-right {
+		padding-right: 10px;
+	}
+
+	.v-margin-top {
+		padding-top: 10px;
+	}
+
+	.v-margin-bottom {
+		padding-bottom: 10px;
+	}
+}

@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import "components/money-field/money-field.scss";
+
+@mixin abacus {
+
+	@include money-field;
+
+	.peter-grid {
+		.v-grid-column-header-content {
+			background-color: yellow;
+		}
+	}
+
+	.peter-grid2 {
+		.v-grid-column-header-content {
+			background-color: red;
+		}
+	}
+
+
+	.v-margin-left {
+		padding-left: 10px;
+	}
+
+	.v-margin-right {
+		padding-right: 10px;
+	}
+
+	.v-margin-top {
+		padding-top: 10px;
+	}
+
+	.v-margin-bottom {
+		padding-bottom: 10px;
+	}
+}
